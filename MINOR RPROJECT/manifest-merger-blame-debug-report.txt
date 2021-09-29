@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fifa_21"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <application
+15-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:9:5-43:19
+16        android:allowBackup="true"
+16-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] C:\Users\AJAY PRAJAPATI\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.FIFA21" >
+24-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:15:9-44
+25        <receiver
+25-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:16:9-26:20
+26            android:name="com.example.fifa_21.NetworkChangeReciver"
+26-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:17:13-49
+27            android:enabled="false"
+27-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:18:13-36
+28            android:exported="false" >
+28-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:19:13-37
+29            <intent-filter>
+29-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" >
+30-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:21:17-22:26
+30-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:21:25-76
+31                </action>
+32            </intent-filter>
+33        </receiver>
+34
+35        <activity android:name="com.example.fifa_21.Fourth" />
+35-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:28:9-44
+35-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:28:19-41
+36        <activity android:name="com.example.fifa_21.Barcelona" />
+36-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:29:9-47
+36-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:29:19-44
+37        <activity android:name="com.example.fifa_21.Realmadrid" />
+37-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:30:9-48
+37-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:30:19-45
+38        <activity android:name="com.example.fifa_21.Intermilan" />
+38-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:31:9-48
+38-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:31:19-45
+39        <activity android:name="com.example.fifa_21.Manchester" />
+39-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:32:9-48
+39-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:32:19-45
+40        <activity android:name="com.example.fifa_21.Bayren" />
+40-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:33:9-44
+40-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:33:19-41
+41        <activity android:name="com.example.fifa_21.Third" />
+41-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:34:9-43
+41-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:34:19-40
+42        <activity android:name="com.example.fifa_21.second" />
+42-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:35:9-44
+42-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:35:19-41
+43        <activity android:name="com.example.fifa_21.MainActivity" >
+43-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:36:9-42:20
+43-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:36:19-47
+44            <intent-filter>
+44-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:37:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:38:17-69
+45-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:40:17-77
+47-->C:\Users\AJAY PRAJAPATI\AndroidStudioProjects\FIFA21\app\src\main\AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

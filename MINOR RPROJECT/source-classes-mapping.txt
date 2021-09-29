@@ -1,0 +1,32 @@
+com/example/fifa_21/context.java
+ com.example.fifa_21.context
+com/example/fifa_21/BuildConfig.java
+ com.example.fifa_21.BuildConfig
+com/example/fifa_21/NetworkChangeReciver.java
+ com.example.fifa_21.NetworkChangeReciver
+com/example/fifa_21/Fourth.java
+ com.example.fifa_21.Fourth
+ com.example.fifa_21.Fourth$1
+ com.example.fifa_21.Fourth$1$1
+ com.example.fifa_21.Fourth$1$2
+com/example/fifa_21/Bayren.java
+ com.example.fifa_21.Bayren
+com/example/fifa_21/Realmadrid.java
+ com.example.fifa_21.Realmadrid
+com/example/fifa_21/Intermilan.java
+ com.example.fifa_21.Intermilan
+com/example/fifa_21/second.java
+ com.example.fifa_21.second
+com/example/fifa_21/Barcelona.java
+ com.example.fifa_21.Barcelona
+com/example/fifa_21/MainActivity.java
+ com.example.fifa_21.MainActivity
+com/example/fifa_21/Manchester.java
+ com.example.fifa_21.Manchester
+com/example/fifa_21/Third.java
+ com.example.fifa_21.Third
+ com.example.fifa_21.Third$1
+ com.example.fifa_21.Third$2
+ com.example.fifa_21.Third$3
+ com.example.fifa_21.Third$4
+ com.example.fifa_21.Third$5
